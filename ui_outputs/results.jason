@@ -1,0 +1,222 @@
+{
+    "passive_results": [
+        {
+            "url": "http://localhost:3000",
+            "status": 200,
+            "header_findings": [
+                {
+                    "type": "header",
+                    "name": "content-security-policy",
+                    "status": "missing",
+                    "details": "CSP helps prevent XSS."
+                },
+                {
+                    "type": "header",
+                    "name": "strict-transport-security",
+                    "status": "missing",
+                    "details": "HSTS enforces HTTPS."
+                },
+                {
+                    "type": "header",
+                    "name": "x-frame-options",
+                    "status": "ok",
+                    "details": "SAMEORIGIN"
+                },
+                {
+                    "type": "header",
+                    "name": "x-content-type-options",
+                    "status": "ok",
+                    "details": "nosniff"
+                },
+                {
+                    "type": "header",
+                    "name": "referrer-policy",
+                    "status": "missing",
+                    "details": "Controls Referer header."
+                },
+                {
+                    "type": "header",
+                    "name": "permissions-policy",
+                    "status": "missing",
+                    "details": "Controls browser features."
+                }
+            ],
+            "cookie_findings": [],
+            "tls": null
+        },
+        {
+            "url": "http://localhost:8080",
+            "status": 200,
+            "header_findings": [
+                {
+                    "type": "header",
+                    "name": "content-security-policy",
+                    "status": "missing",
+                    "details": "CSP helps prevent XSS."
+                },
+                {
+                    "type": "header",
+                    "name": "strict-transport-security",
+                    "status": "missing",
+                    "details": "HSTS enforces HTTPS."
+                },
+                {
+                    "type": "header",
+                    "name": "x-frame-options",
+                    "status": "missing",
+                    "details": "Prevents clickjacking."
+                },
+                {
+                    "type": "header",
+                    "name": "x-content-type-options",
+                    "status": "missing",
+                    "details": "Prevents MIME sniffing."
+                },
+                {
+                    "type": "header",
+                    "name": "referrer-policy",
+                    "status": "missing",
+                    "details": "Controls Referer header."
+                },
+                {
+                    "type": "header",
+                    "name": "permissions-policy",
+                    "status": "missing",
+                    "details": "Controls browser features."
+                }
+            ],
+            "cookie_findings": [],
+            "tls": null
+        }
+    ],
+    "active_results": [
+        {
+            "url": "http://localhost:3000",
+            "forms": [],
+            "links": [],
+            "vulnerabilities": []
+        },
+        {
+            "url": "http://localhost:8080",
+            "forms": [
+                {
+                    "action": "login.php",
+                    "method": "post",
+                    "inputs": [
+                        {
+                            "name": "username",
+                            "type": "text",
+                            "placeholder": null
+                        },
+                        {
+                            "name": "password",
+                            "type": "password",
+                            "placeholder": null
+                        },
+                        {
+                            "name": "Login",
+                            "type": "submit",
+                            "placeholder": null
+                        },
+                        {
+                            "name": "user_token",
+                            "type": "hidden",
+                            "placeholder": null
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                "http://www.dvwa.co.uk/"
+            ],
+            "vulnerabilities": []
+        }
+    ],
+    "findings": [
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "content-security-policy",
+            "status": "missing",
+            "details": "CSP helps prevent XSS."
+        },
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "strict-transport-security",
+            "status": "missing",
+            "details": "HSTS enforces HTTPS."
+        },
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "x-frame-options",
+            "status": "ok",
+            "details": "SAMEORIGIN"
+        },
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "x-content-type-options",
+            "status": "ok",
+            "details": "nosniff"
+        },
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "referrer-policy",
+            "status": "missing",
+            "details": "Controls Referer header."
+        },
+        {
+            "url": "http://localhost:3000",
+            "type": "header",
+            "name": "permissions-policy",
+            "status": "missing",
+            "details": "Controls browser features."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "content-security-policy",
+            "status": "missing",
+            "details": "CSP helps prevent XSS."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "strict-transport-security",
+            "status": "missing",
+            "details": "HSTS enforces HTTPS."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "x-frame-options",
+            "status": "missing",
+            "details": "Prevents clickjacking."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "x-content-type-options",
+            "status": "missing",
+            "details": "Prevents MIME sniffing."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "referrer-policy",
+            "status": "missing",
+            "details": "Controls Referer header."
+        },
+        {
+            "url": "http://localhost:8080",
+            "type": "header",
+            "name": "permissions-policy",
+            "status": "missing",
+            "details": "Controls browser features."
+        }
+    ],
+    "total_findings": 12
+}
