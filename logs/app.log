@@ -1,0 +1,14 @@
+2025-11-26 23:07:43,248 - INFO - Starting scan mode: passive
+2025-11-26 23:07:43,248 - INFO - Targets: ['http://localhost:3000', 'http://localhost:8080', 'https://localhost:3443']
+2025-11-26 23:07:43,249 - INFO - Running PASSIVE scan on http://localhost:3000
+2025-11-26 23:07:43,712 - INFO - Running PASSIVE scan on http://localhost:8080
+2025-11-26 23:07:44,163 - INFO - Running PASSIVE scan on https://localhost:3443
+2025-11-26 23:07:48,227 - INFO - Saving JSON output...
+2025-11-26 23:07:48,228 - INFO - Generating HTML report...
+2025-11-26 23:08:22,288 - INFO - Starting scan mode: active
+2025-11-26 23:08:22,288 - INFO - Targets: ['http://localhost:3000', 'http://localhost:8080', 'https://localhost:3443']
+2025-11-26 23:08:22,288 - INFO - Running ACTIVE scan on http://localhost:3000
+2025-11-26 23:08:22,326 - INFO - Running ACTIVE scan on http://localhost:8080
+2025-11-26 23:08:22,431 - INFO - Running ACTIVE scan on https://localhost:3443
+2025-11-26 23:08:26,498 - INFO - Saving JSON output...
+2025-11-26 23:08:26,500 - INFO - Generating HTML report...
